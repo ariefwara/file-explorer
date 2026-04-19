@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>file-explorer</id>
+    <version>0.1.0</version>
+    <title>File Explorer</title>
+    <authors>Arief Warazuhudien</authors>
+    <owners>ariefwara</owners>
+    <projectUrl>https://file-explorer.ariefw.com</projectUrl>
+    <description>A fast, modern file manager with a classic tree panel sidebar. Browse folders with an always-visible expandable tree, thumbnail previews, streaming directory reads, clipboard operations, 32 themes, and keyboard shortcuts.</description>
+    <summary>Fast, modern file manager with tree panel sidebar</summary>
+    <tags>file-manager file-explorer tree-panel gui</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
